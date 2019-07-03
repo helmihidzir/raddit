@@ -18,6 +18,8 @@ gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'rails-ujs', '~> 0.1.0'
 gem 'acts_as_votable'
+gem 'simple_form'
+gem 'record_tag_helper', '~> 1.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
